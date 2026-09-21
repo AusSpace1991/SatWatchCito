@@ -74,7 +74,7 @@ jobs:
           convert_markdown: false
 
       - name: Commit history
-              if: steps.run.outputs.skipped == 'false'
+        if: steps.run.outputs.skipped == 'false'
         run: |
           git config user.name  "satellite-watch"
           git config user.email "actions@github.com"
