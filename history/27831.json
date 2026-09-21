@@ -1,0 +1,22 @@
+{
+  "catnr": 27831,
+  "name": "OPTUS C1",
+  "utc": "2026-09-21T10:29:40+00:00",
+  "lat_deg": -6.462854110521858,
+  "lon_deg": 155.6354981542754,
+  "alt_km": 35803.86795601448,
+  "speed_km_s": 3.073431477064377,
+  "inclination_deg": 7.123500000000001,
+  "raan_deg": 68.2032,
+  "arg_perigee_deg": 109.2129,
+  "eccentricity": 0.0005522,
+  "mean_anomaly_deg": 95.3012,
+  "mean_motion_rev_day": 1.0027248499999997,
+  "sma_km": 42164.53572692154,
+  "period_min": 1436.08687866866,
+  "perigee_alt_km": 35763.11547029313,
+  "apogee_alt_km": 35809.68198354994,
+  "tle_epoch_utc": "2026-09-21T07:46:55+00:00",
+  "tle_age_hours": 2.7125879872222223,
+  "delta": null
+}

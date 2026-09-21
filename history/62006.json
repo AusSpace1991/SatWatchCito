@@ -1,0 +1,22 @@
+{
+  "catnr": 62006,
+  "name": "OPTUS-X (ADS-01)",
+  "utc": "2026-09-21T10:29:40+00:00",
+  "lat_deg": 0.024232449651511105,
+  "lon_deg": 156.42710364030455,
+  "alt_km": 35794.40034778303,
+  "speed_km_s": 3.0741100441230818,
+  "inclination_deg": 0.0271,
+  "raan_deg": 259.9908,
+  "arg_perigee_deg": 276.1277,
+  "eccentricity": 0.0002644,
+  "mean_anomaly_deg": 93.8106,
+  "mean_motion_rev_day": 1.00271834,
+  "sma_km": 42164.71822471752,
+  "period_min": 1436.096202249577,
+  "perigee_alt_km": 35775.4328732189,
+  "apogee_alt_km": 35797.72957621614,
+  "tle_epoch_utc": "2026-09-21T07:33:15+00:00",
+  "tle_age_hours": 2.9404855083333334,
+  "delta": null
+}
