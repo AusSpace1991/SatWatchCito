@@ -1,0 +1,22 @@
+{
+  "catnr": 40146,
+  "name": "OPTUS 10",
+  "utc": "2026-09-21T09:53:13+00:00",
+  "lat_deg": -0.0030296209498958215,
+  "lon_deg": 156.02180869511665,
+  "alt_km": 35792.12017248523,
+  "speed_km_s": 3.074287883792374,
+  "inclination_deg": 0.0245,
+  "raan_deg": 53.5152,
+  "arg_perigee_deg": 119.764,
+  "eccentricity": 0.0002048,
+  "mean_anomaly_deg": 247.3099,
+  "mean_motion_rev_day": 1.00270763,
+  "sma_km": 42165.018467323825,
+  "period_min": 1436.1115413074099,
+  "perigee_alt_km": 35778.24607154172,
+  "apogee_alt_km": 35795.51686310593,
+  "tle_epoch_utc": "2026-09-20T17:39:46+00:00",
+  "tle_age_hours": 16.224262399166665,
+  "delta": null
+}

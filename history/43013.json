@@ -1,0 +1,22 @@
+{
+  "catnr": 43013,
+  "name": "NOAA 20 (JPSS-1)",
+  "utc": "2026-09-21T09:53:13+00:00",
+  "lat_deg": -70.56311976990513,
+  "lon_deg": 80.25451449019045,
+  "alt_km": 853.5924759588615,
+  "speed_km_s": 7.424747113466785,
+  "inclination_deg": 98.7824,
+  "raan_deg": 202.5625,
+  "arg_perigee_deg": 42.5793,
+  "eccentricity": 0.0001328,
+  "mean_anomaly_deg": 317.5486,
+  "mean_motion_rev_day": 14.19526795,
+  "sma_km": 7205.09057794078,
+  "period_min": 101.44225562152914,
+  "perigee_alt_km": 825.9967419120294,
+  "apogee_alt_km": 827.9104139695319,
+  "tle_epoch_utc": "2026-09-20T22:23:11+00:00",
+  "tle_age_hours": 11.500672393888888,
+  "delta": null
+}

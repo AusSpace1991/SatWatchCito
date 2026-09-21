@@ -1,0 +1,22 @@
+{
+  "catnr": 48274,
+  "name": "CSS (TIANHE)",
+  "utc": "2026-09-21T09:53:13+00:00",
+  "lat_deg": -32.38826181302192,
+  "lon_deg": 174.6795182369774,
+  "alt_km": 395.2164105529646,
+  "speed_km_s": 7.674182674010518,
+  "inclination_deg": 41.4679,
+  "raan_deg": 100.7142,
+  "arg_perigee_deg": 293.6963,
+  "eccentricity": 0.0002502,
+  "mean_anomaly_deg": 66.36130000000001,
+  "mean_motion_rev_day": 15.601431109999996,
+  "sma_km": 6765.380326258301,
+  "period_min": 92.29922497795783,
+  "perigee_alt_km": 385.550628100671,
+  "apogee_alt_km": 388.93602441593066,
+  "tle_epoch_utc": "2026-09-20T22:08:10+00:00",
+  "tle_age_hours": 11.750979681944443,
+  "delta": null
+}

@@ -1,0 +1,22 @@
+{
+  "catnr": 20580,
+  "name": "HST",
+  "utc": "2026-09-21T09:53:13+00:00",
+  "lat_deg": 14.84296542710614,
+  "lon_deg": 22.893877303098947,
+  "alt_km": 468.3723776890274,
+  "speed_km_s": 7.635906790402233,
+  "inclination_deg": 28.4728,
+  "raan_deg": 149.593,
+  "arg_perigee_deg": 116.60170000000001,
+  "eccentricity": 0.0001875,
+  "mean_anomaly_deg": 243.4771,
+  "mean_motion_rev_day": 15.317018309999998,
+  "sma_km": 6848.871537115363,
+  "period_min": 94.01307557750123,
+  "perigee_alt_km": 469.45037370215414,
+  "apogee_alt_km": 472.0187005285725,
+  "tle_epoch_utc": "2026-09-20T08:43:38+00:00",
+  "tle_age_hours": 25.159824082222222,
+  "delta": null
+}

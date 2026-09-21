@@ -1,0 +1,22 @@
+{
+  "catnr": 25544,
+  "name": "ISS (ZARYA)",
+  "utc": "2026-09-21T09:53:13+00:00",
+  "lat_deg": -45.239059157760664,
+  "lon_deg": -92.19142254066666,
+  "alt_km": 433.55530360328703,
+  "speed_km_s": 7.651718801202926,
+  "inclination_deg": 51.6308,
+  "raan_deg": 186.9475,
+  "arg_perigee_deg": 163.3027,
+  "eccentricity": 0.0004819,
+  "mean_anomaly_deg": 196.8121,
+  "mean_motion_rev_day": 15.49200337,
+  "sma_km": 6797.201106940134,
+  "period_min": 92.95118039985296,
+  "perigee_alt_km": 415.7885357266996,
+  "apogee_alt_km": 422.33967815356937,
+  "tle_epoch_utc": "2026-09-20T18:54:10+00:00",
+  "tle_age_hours": 14.984228958888888,
+  "delta": null
+}
