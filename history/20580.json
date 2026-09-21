@@ -1,11 +1,11 @@
 {
   "catnr": 20580,
   "name": "HST",
-  "utc": "2026-09-21T09:53:13+00:00",
-  "lat_deg": 14.84296542710614,
-  "lon_deg": 22.893877303098947,
-  "alt_km": 468.3723776890274,
-  "speed_km_s": 7.635906790402233,
+  "utc": "2026-09-21T10:13:16+00:00",
+  "lat_deg": 26.86636101243752,
+  "lon_deg": 100.43337539129345,
+  "alt_km": 468.0772844957937,
+  "speed_km_s": 7.6380433017273255,
   "inclination_deg": 28.4728,
   "raan_deg": 149.593,
   "arg_perigee_deg": 116.60170000000001,
@@ -17,6 +17,15 @@
   "perigee_alt_km": 469.45037370215414,
   "apogee_alt_km": 472.0187005285725,
   "tle_epoch_utc": "2026-09-20T08:43:38+00:00",
-  "tle_age_hours": 25.159824082222222,
-  "delta": null
+  "tle_age_hours": 25.493951514444444,
+  "delta": {
+    "since_utc": "2026-09-21T09:53:13+00:00",
+    "d_sma_km": 0.0,
+    "d_inclination_deg": 0.0,
+    "d_eccentricity": 0.0,
+    "d_raan_deg": 0.0,
+    "d_period_min": 0.0,
+    "flags": [],
+    "manoeuvre_suspected": false
+  }
 }

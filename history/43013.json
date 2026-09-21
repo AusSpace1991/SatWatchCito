@@ -1,11 +1,11 @@
 {
   "catnr": 43013,
   "name": "NOAA 20 (JPSS-1)",
-  "utc": "2026-09-21T09:53:13+00:00",
-  "lat_deg": -70.56311976990513,
-  "lon_deg": 80.25451449019045,
-  "alt_km": 853.5924759588615,
-  "speed_km_s": 7.424747113466785,
+  "utc": "2026-09-21T10:13:16+00:00",
+  "lat_deg": -1.4356402972977684,
+  "lon_deg": 49.64623142793138,
+  "alt_km": 829.3567738376778,
+  "speed_km_s": 7.438568109131298,
   "inclination_deg": 98.7824,
   "raan_deg": 202.5625,
   "arg_perigee_deg": 42.5793,
@@ -17,6 +17,15 @@
   "perigee_alt_km": 825.9967419120294,
   "apogee_alt_km": 827.9104139695319,
   "tle_epoch_utc": "2026-09-20T22:23:11+00:00",
-  "tle_age_hours": 11.500672393888888,
-  "delta": null
+  "tle_age_hours": 11.83479982611111,
+  "delta": {
+    "since_utc": "2026-09-21T09:53:13+00:00",
+    "d_sma_km": 0.0,
+    "d_inclination_deg": 0.0,
+    "d_eccentricity": 0.0,
+    "d_raan_deg": 0.0,
+    "d_period_min": 0.0,
+    "flags": [],
+    "manoeuvre_suspected": false
+  }
 }
