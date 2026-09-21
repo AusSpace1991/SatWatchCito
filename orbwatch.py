@@ -39,11 +39,9 @@ from sgp4.api import Satrec, jday
 # ---------------------------------------------------------------------------
 
 WATCHLIST = [
-    (25544, "ISS (ZARYA)"),
-    (48274, "CSS (TIANHE)"),
-    (20580, "HST"),
-    (43013, "NOAA-20"),
-    (40146, "OPTUS 10"),
+    (62006, "OPTUS-X (ADS-01)"),
+    (27831, "OPTUS C1"),
+    (38098, "INTELSAT 22 (IS-22)"),
 ]
 
 # Local time gate. The workflow fires four times a day in UTC; the report is
