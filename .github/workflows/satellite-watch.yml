@@ -1,0 +1,90 @@
+name: Satellite Watch
+
+# Fires four times a day in UTC. The script itself decides whether to run,
+# proceeding only when the Sydney clock reads 07:00 or 17:00. That keeps the
+# report at the same local time year round, across the daylight saving
+# change in October and April, without ever editing this file.
+#
+#   AEST (UTC+10):  21:00Z -> 07:00   |  07:00Z -> 17:00
+#   AEDT (UTC+11):  20:00Z -> 07:00   |  06:00Z -> 17:00
+
+on:
+  schedule:
+    - cron: "0 6,7,20,21 * * *"
+  workflow_dispatch:          # lets you run it on demand from the Actions tab
+    inputs:
+      force:
+        description: "Run even if it is not a scheduled Sydney hour"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write             # needed to commit the history file
+
+concurrency:
+  group: satellite-watch
+  cancel-in-progress: false
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install --quiet sgp4 numpy
+
+      - name: Generate report
+        id: run
+        env:
+          FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.force && '1' || '' }}
+        run: |
+          python orbwatch.py
+          if [ -f skip.flag ]; then
+            echo "skipped=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skipped=false" >> "$GITHUB_OUTPUT"
+            {
+              echo "subject<<EOF"
+              cat subject.txt
+              echo
+              echo "EOF"
+            } >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Email the report
+        if: steps.run.outputs.skipped == 'false'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_APP_PASSWORD }}
+          subject: ${{ steps.run.outputs.subject }}
+          to: ${{ secrets.MAIL_TO }}
+          from: Satellite Watch <${{ secrets.MAIL_USERNAME }}>
+          body: file://report.txt
+          convert_markdown: false
+
+      - name: Commit history
+        run: |
+          git config user.name  "satellite-watch"
+          git config user.email "actions@github.com"
+          git add history report.json
+          if git diff --staged --quiet; then
+            echo "nothing to commit"
+          else
+            git commit -m "Report $(date -u +'%Y-%m-%d %H:%M')Z"
+            git push
+          fi
+
+      # If the email step fails, the run is marked failed and GitHub emails
+      # you about the failed workflow - so a broken mail path still reaches
+      # you rather than failing silently.
