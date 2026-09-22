@@ -1,105 +1,11 @@
 {
-  "generated_utc": "2026-09-21T21:12:39+00:00",
-  "generated_local": "2026-09-22T07:12:39+10:00",
+  "generated_utc": "2026-09-22T07:12:54+00:00",
+  "generated_local": "2026-09-22T17:12:54+10:00",
   "forced": false,
-  "satellites": [
-    {
-      "catnr": 62006,
-      "name": "OPTUS-X (ADS-01)",
-      "utc": "2026-09-21T21:12:39+00:00",
-      "lat_deg": -0.023562726017344323,
-      "lon_deg": 156.37949620224202,
-      "alt_km": 35780.67236367991,
-      "speed_km_s": 3.0751115812764818,
-      "inclination_deg": 0.0267,
-      "raan_deg": 259.3988,
-      "arg_perigee_deg": 276.9579,
-      "eccentricity": 0.0002642,
-      "mean_anomaly_deg": 166.501,
-      "mean_motion_rev_day": 1.00271808,
-      "sma_km": 42164.725513456986,
-      "period_min": 1436.0965746224501,
-      "perigee_alt_km": 35775.448592976325,
-      "apogee_alt_km": 35797.728433937635,
-      "tle_epoch_utc": "2026-09-21T12:24:10+00:00",
-      "tle_age_hours": 8.808131089722222,
-      "delta": {
-        "since_utc": "2026-09-21T10:29:40+00:00",
-        "d_sma_km": 0.007288739463547245,
-        "d_inclination_deg": -0.0003999999999999976,
-        "d_eccentricity": -1.9999999999995065e-07,
-        "d_raan_deg": -0.5919999999999845,
-        "d_period_min": 0.0003723728732438758,
-        "flags": [
-          "RAAN change -0.592\u00b0"
-        ],
-        "manoeuvre_suspected": true
-      }
-    },
-    {
-      "catnr": 27831,
-      "name": "OPTUS C1",
-      "utc": "2026-09-21T21:12:39+00:00",
-      "lat_deg": 5.141602414935577,
-      "lon_deg": 155.4800262564595,
-      "alt_km": 35774.809702280494,
-      "speed_km_s": 3.0755440118267092,
-      "inclination_deg": 7.1239,
-      "raan_deg": 68.2009,
-      "arg_perigee_deg": 109.4906,
-      "eccentricity": 0.0005523,
-      "mean_anomaly_deg": 164.388,
-      "mean_motion_rev_day": 1.00272471,
-      "sma_km": 42164.539651584535,
-      "period_min": 1436.0870791745024,
-      "perigee_alt_km": 35763.11517633496,
-      "apogee_alt_km": 35809.6901268341,
-      "tle_epoch_utc": "2026-09-21T12:23:36+00:00",
-      "tle_age_hours": 8.817390768055557,
-      "delta": {
-        "since_utc": "2026-09-21T10:29:40+00:00",
-        "d_sma_km": 0.003924662996723782,
-        "d_inclination_deg": 0.00039999999999906777,
-        "d_eccentricity": 1.0000000000005664e-07,
-        "d_raan_deg": -0.002299999999991087,
-        "d_period_min": 0.00020050584248565428,
-        "flags": [],
-        "manoeuvre_suspected": false
-      }
-    },
-    {
-      "catnr": 38098,
-      "name": "INTELSAT 22 (IS-22)",
-      "utc": "2026-09-21T21:12:39+00:00",
-      "lat_deg": -0.009121739885098654,
-      "lon_deg": 72.09147953382498,
-      "alt_km": 35792.1481764126,
-      "speed_km_s": 3.074288222986144,
-      "inclination_deg": 0.014,
-      "raan_deg": 213.8443,
-      "arg_perigee_deg": 322.5276,
-      "eccentricity": 0.0001633,
-      "mean_anomaly_deg": 103.0888,
-      "mean_motion_rev_day": 1.00270434,
-      "sma_km": 42165.11069978582,
-      "period_min": 1436.1162533713577,
-      "perigee_alt_km": 35780.08813720854,
-      "apogee_alt_km": 35793.8592623631,
-      "tle_epoch_utc": "2026-09-21T13:47:33+00:00",
-      "tle_age_hours": 7.418245246944444,
-      "delta": {
-        "since_utc": "2026-09-21T10:29:40+00:00",
-        "d_sma_km": -0.00616753823851468,
-        "d_inclination_deg": -0.0011000000000000003,
-        "d_eccentricity": -4.99999999999985e-07,
-        "d_raan_deg": -3.207499999999982,
-        "d_period_min": -0.00031509352515968203,
-        "flags": [
-          "RAAN change -3.207\u00b0"
-        ],
-        "manoeuvre_suspected": true
-      }
-    }
-  ],
-  "errors": []
+  "satellites": [],
+  "errors": [
+    "OPTUS-X (ADS-01) [62006]: HTTP Error 500: Internal Server Error",
+    "OPTUS C1 [27831]: HTTP Error 500: Internal Server Error",
+    "INTELSAT 22 (IS-22) [38098]: HTTP Error 500: Internal Server Error"
+  ]
 }
