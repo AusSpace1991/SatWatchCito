@@ -1,11 +1,11 @@
 {
   "catnr": 62006,
   "name": "OPTUS-X (ADS-01)",
-  "utc": "2026-09-22T21:11:43+00:00",
-  "lat_deg": -0.022108437193352176,
-  "lon_deg": 156.37768648830132,
-  "alt_km": 35780.665524707845,
-  "speed_km_s": 3.0751132910111,
+  "utc": "2026-09-23T07:13:42+00:00",
+  "lat_deg": 0.01834111360170949,
+  "lon_deg": 156.43365586212798,
+  "alt_km": 35786.14955689911,
+  "speed_km_s": 3.0747138254463806,
   "inclination_deg": 0.0257,
   "raan_deg": 258.3818,
   "arg_perigee_deg": 278.5188,
@@ -17,17 +17,15 @@
   "perigee_alt_km": 35775.4471540442,
   "apogee_alt_km": 35797.75229977273,
   "tle_epoch_utc": "2026-09-21T18:38:38+00:00",
-  "tle_age_hours": 26.5514548025,
+  "tle_age_hours": 36.58439550888889,
   "delta": {
-    "since_utc": "2026-09-21T21:12:39+00:00",
-    "d_sma_km": 0.011213451485673431,
-    "d_inclination_deg": -0.0010000000000000009,
-    "d_eccentricity": 2.999999999999531e-07,
-    "d_raan_deg": -1.016999999999996,
-    "d_period_min": 0.0005728817207000247,
-    "flags": [
-      "RAAN change -1.017\u00b0"
-    ],
-    "manoeuvre_suspected": true
+    "since_utc": "2026-09-22T21:11:43+00:00",
+    "d_sma_km": 0.0,
+    "d_inclination_deg": 0.0,
+    "d_eccentricity": 0.0,
+    "d_raan_deg": 0.0,
+    "d_period_min": 0.0,
+    "flags": [],
+    "manoeuvre_suspected": false
   }
 }
