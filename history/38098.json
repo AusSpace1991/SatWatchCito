@@ -1,11 +1,11 @@
 {
   "catnr": 38098,
   "name": "INTELSAT 22 (IS-22)",
-  "utc": "2026-09-27T21:12:05+00:00",
-  "lat_deg": -0.02725781183027667,
-  "lon_deg": 72.06658350660848,
-  "alt_km": 35792.06608514983,
-  "speed_km_s": 3.074281419657775,
+  "utc": "2026-09-28T07:15:16+00:00",
+  "lat_deg": 0.014521241843502083,
+  "lon_deg": 72.07740996076524,
+  "alt_km": 35779.07474425297,
+  "speed_km_s": 3.0752284866644835,
   "inclination_deg": 0.0151,
   "raan_deg": 137.0107,
   "arg_perigee_deg": 47.5176,
@@ -17,17 +17,15 @@
   "perigee_alt_km": 35779.63261397471,
   "apogee_alt_km": 35793.631317271305,
   "tle_epoch_utc": "2026-09-27T01:30:44+00:00",
-  "tle_age_hours": 19.68911872027778,
+  "tle_age_hours": 29.742223391944446,
   "delta": {
-    "since_utc": "2026-09-27T07:12:35+00:00",
-    "d_sma_km": -0.0036443803037400357,
-    "d_inclination_deg": -0.0020999999999999994,
-    "d_eccentricity": 1.0000000000000243e-07,
-    "d_raan_deg": -2.585099999999983,
-    "d_period_min": -0.00018618708509166026,
-    "flags": [
-      "RAAN change -2.585\u00b0"
-    ],
-    "manoeuvre_suspected": true
+    "since_utc": "2026-09-27T21:12:05+00:00",
+    "d_sma_km": 0.0,
+    "d_inclination_deg": 0.0,
+    "d_eccentricity": 0.0,
+    "d_raan_deg": 0.0,
+    "d_period_min": 0.0,
+    "flags": [],
+    "manoeuvre_suspected": false
   }
 }
