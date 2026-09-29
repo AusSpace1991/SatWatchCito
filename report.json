@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-09-28T21:13:15+00:00",
-  "generated_local": "2026-09-29T07:13:15+10:00",
+  "generated_utc": "2026-09-29T07:14:48+00:00",
+  "generated_local": "2026-09-29T17:14:48+10:00",
   "forced": false,
   "satellites": [],
   "errors": [
-    "OPTUS-X (ADS-01) [62006]: HTTP Error 500: Internal Server Error",
-    "OPTUS C1 [27831]: HTTP Error 500: Internal Server Error",
-    "INTELSAT 22 (IS-22) [38098]: HTTP Error 500: Internal Server Error"
+    "OPTUS-X (ADS-01) [62006]: <urlopen error timed out>",
+    "OPTUS C1 [27831]: <urlopen error timed out>",
+    "INTELSAT 22 (IS-22) [38098]: <urlopen error timed out>"
   ]
 }
